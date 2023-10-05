@@ -4,7 +4,7 @@ import 'package:bombay_running/core/constants/globals.dart';
 import 'package:bombay_running/core/utils/color_parser.dart';
 import 'package:bombay_running/features/home/data/model/stock_model.dart';
 import 'package:bombay_running/features/home/domain/bloc/stock_details/stock_details_cubit.dart';
-import 'package:bombay_running/features/home/presentation/screen/trade_details_screen.dart';
+import 'package:bombay_running/features/home/presentation/screen/internal_screens/trade_details_screen.dart';
 import 'package:bombay_running/features/home/presentation/widgets/liner_dashed_painter.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

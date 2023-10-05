@@ -1,9 +1,8 @@
 import 'package:bombay_running/config/routes/routes.dart';
 import 'package:bombay_running/features/home/presentation/screen/home_screen.dart';
-import 'package:bombay_running/features/home/presentation/screen/market_scan_list_page.dart';
+import 'package:bombay_running/features/home/presentation/screen/internal_screens/market_scan_list_page.dart';
 import 'package:flutter/material.dart';
 
-//ignore_for_file: cast_nullable_to_non_nullable
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     final String? routeName = settings.name;

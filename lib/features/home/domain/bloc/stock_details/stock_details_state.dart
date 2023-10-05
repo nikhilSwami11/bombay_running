@@ -7,8 +7,6 @@ sealed class StockDetailsState extends Equatable {
   List<Object> get props => [];
 }
 
-final class StockDetailsInitial extends StockDetailsState {}
-
 final class StockDetailsLoading extends StockDetailsState {}
 
 final class StockDetailsError extends StockDetailsState {}

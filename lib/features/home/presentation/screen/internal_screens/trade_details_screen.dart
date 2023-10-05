@@ -7,8 +7,8 @@ import 'package:bombay_running/features/home/data/model/criteria_model.dart';
 import 'package:bombay_running/features/home/data/model/stock_model.dart';
 import 'package:bombay_running/features/home/data/model/variable_model.dart';
 import 'package:bombay_running/features/home/domain/bloc/stock_details/stock_details_cubit.dart';
-import 'package:bombay_running/features/home/presentation/screen/edit_indicator_screen.dart';
-import 'package:bombay_running/features/home/presentation/screen/edit_value_screen.dart';
+import 'package:bombay_running/features/home/presentation/screen/internal_screens/edit_indicator_screen.dart';
+import 'package:bombay_running/features/home/presentation/screen/internal_screens/edit_value_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

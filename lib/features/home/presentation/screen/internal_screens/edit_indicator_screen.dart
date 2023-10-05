@@ -96,4 +96,10 @@ class _EditIndicatorScreenState extends State<EditIndicatorScreen> {
       ],
     );
   }
+
+  @override
+  void dispose() {
+    _textEditingController.dispose();
+    super.dispose();
+  }
 }

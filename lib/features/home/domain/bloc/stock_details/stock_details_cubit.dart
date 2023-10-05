@@ -6,7 +6,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 part 'stock_details_state.dart';
 
 class StockDetailsCubit extends Cubit<StockDetailsState> {
-  StockDetailsCubit() : super(StockDetailsInitial());
+  StockDetailsCubit() : super(StockDetailsLoading());
 
   List<Stock> stockDataList = [];
   Future<void> getStockDetails() async {
